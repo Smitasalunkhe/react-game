@@ -1,0 +1,53 @@
+.game-board-container {
+  width: 100%;
+  height: 100%;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-board {
+  width: 62%;
+  height: 80%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row {
+  height: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  margin: 5px;
+}
+
+.row button {
+  height: 75%;
+  width: 25%;
+  background-color: #CDE8E5;
+  margin: 0px;
+  border-radius: 9px;
+
+  color: black;
+  font-size: 30px;
+}
+
+#winner-span {
+  margin: 15px;
+  color: aliceblue;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.reset-btn {
+  margin-top: 20px;
+  height: 50px;
+  width: 120px;
+  font-size: 20px;
+}
